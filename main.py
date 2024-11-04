@@ -1,4 +1,4 @@
-number=int(input("Enter a number to check pallindrom or not:"))
+number=int(input("Enter a number to check palindrome or not:"))
 
 originalno=number
 reverse=0
@@ -9,6 +9,6 @@ while number>0:
     number//=10
     
 if originalno==reverse:
-    print("Number is pallindrom")
+    print("Number is palindrome")
 else:
-    print("Number is not pallindrom")
+    print("Number is not palindrome")
